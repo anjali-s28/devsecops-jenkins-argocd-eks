@@ -1,0 +1,19 @@
+# secrets
+secret.txt
+*.pem
+*.key
+.env
+kubeconfig*
+config
+
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# other
+node_modules/
+*.zip
+.DS_Store
